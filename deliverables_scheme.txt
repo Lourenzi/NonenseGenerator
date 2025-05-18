@@ -1,0 +1,35 @@
+--- DELIVERABLES SCHEME ---
+Questo file contiene un riepilogo di quelli che sono i deliverables
+e di tutto quello che deve essere contenuto.
+
+MANUALE
+File che contiene:
+ >Descrizione del progetto;
+ >Istruzioni sull'installazione;
+ >Note su eventuali restrizioni o vincoli;
+ >Sezione dedicata alle librerie riutilizzate;
+ >Sezione dedicata alle API utilizzate.
+
+USER STORIES
+File che contiene:
+ >User stories create (con Jira);
+ >Descrizione nel dettaglio (in cosa si traduce ogni user story).
+
+DOCUMENTO DI DESIGN
+ >Domain model, con descrizione testuale;
+ >System sequence diagrams;
+ >Design class model;
+ >Internal sequence diagrams (più significativi).
+
+CODICE
+ >Codice, file di compilazione (?)... (Il codice deve essere commentato);
+ >Codice compilabile con un IDE;
+ >Il codice deve contenere le classi di test (Junit).
+
+DOCUMENTO DI SYSTEM TEST
+ >Definizione di acceptance criteria;
+ >System test report (risultati di validazione acceptanze criteria)
+  (ok/ko, commenti, data);
+
+UNIT TEST REPORT
+ >Report generato automaticamente da Junit a partire dagli unit test case.
