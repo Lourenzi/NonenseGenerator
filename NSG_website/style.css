@@ -85,6 +85,13 @@ textarea::placeholder {
   width: 110px;
   text-align: center;
 }
+.Syntactic-Tree-container{
+      width:40vw;
+      margin-left: 8.5vw;
+      text-align: right;
+      font-size: 1em;
+      margin-top: 10px;
+}
 select {
   padding: 5px;
   font-size: 1em;
