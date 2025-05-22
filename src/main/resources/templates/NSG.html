@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title th:text="#{app.title}">NonSenseGenerator</title>
+  <link rel="stylesheet" th:href="@{/css/style.css}" href="style.css"/>
+</head>
+<body>
+  <div class="title" id="title"></div>
+
+  <div class="container">
+    <div class="box" title="Write here the word or the sentence you want to randomize">
+      <textarea id="inputText" placeholder="Monkey, giraffe" th:attr="placeholder=#{input.placeholder}"></textarea>
+    </div>
+
+    <div id="outputBox" class="box" title="Here you'll see the generated sentence or sentences">
+      <div id="outputText" class="output" th:text="#{default.output}">
+        The monkey wore a tiny top hat while the giraffe tried to juggle pineapples on roller skates
+      </div>
+    </div>
+  </div>
+
+  <div class="controls-container">
+    <div class="left-control">
+      <div class="left-label">
+        <label for="sentenceCount" th:text="#{sentence.count.label}">How many sentences do you need?</label>
+        <select id="sentenceCount">
+          <option th:each="i : ${#numbers.sequence(1, 9)}" 
+                  th:value="${i}" 
+                  th:text="${i}"></option>
+        </select>
+      </div>
+      <button class="generate-button" onclick="onGenerateClick()" 
+              th:attr="title=#{generate.button.title}"
+              th:text="#{generate.button.text}">Generate</button>
+    </div>
+    <div class="right-control">
+      <div></div>
+      <button class="copy-button" onclick="onCopyClick()" 
+              th:attr="title=#{copy.button.title}"
+              th:text="#{copy.button.text}" 
+              id="copyBtn">Copy</button>
+    </div>
+  </div>
+
+  <!-- Add CSRF meta tags for security -->
+  <!-- <meta name="_csrf" th:content="${_csrf.token}"/>
+  <meta name="_csrf_header" th:content="${_csrf.headerName}"/> --->
+
+  <div class="Syntactic-Tree-container">
+    <label for="syntacticTree" th:text="#{syntactic.tree.label}">Syntactic Tree</label>
+    <input type="checkbox" id="syntacticTree" name="syntacticTree" th:checked="${syntacticTreeEnabled ?: false}">
+  </div>
+  <!-- Update script reference to use Thymeleaf URL syntax -->
+  <script th:src="@{/js/script.js}" src="script.js"></script>
+</body>
+</html>
