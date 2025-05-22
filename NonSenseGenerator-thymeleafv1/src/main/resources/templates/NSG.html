@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore di Nonsense</title>
+    
+    <!-- Collegamento CSS assoluto con Thymeleaf -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    
+    <!-- Fallback per sviluppo locale -->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generatore di Frasi Nonsense</h1>
+        
+        <form th:action="@{/generate}" method="post" class="generation-form">
+            <div class="form-group">
+                <label for="inputText">Parole chiave (separate da virgola):</label>
+                <input type="text" id="inputText" name="inputText" 
+                       th:value="${inputText}" class="form-control"
+                       placeholder="es: gatto, cane, topo" required>
+            </div>
+            
+            <div class="form-actions">
+                <button type="submit" class="btn-generate">
+                    🎲 Genera Frase
+                </button>
+            </div>
+        </form>
+        
+        <div class="result-container" th:if="${nonsense}">
+            <h3>La tua frase nonsense:</h3>
+            <div class="result-box" th:text="${nonsense}"></div>
+        </div>
+    </div>
+</body>
+</html>

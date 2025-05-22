@@ -1,0 +1,7 @@
+com\nonsense\Main.class
+com\nonsense\model\Word.class
+com\nonsense\generator\TemplateEngine.class
+com\ProjectApp\NonSenseGenerator\service\NonsenseService.class
+com\ProjectApp\NonSenseGenerator\NSGController.class
+com\nonsense\analyzer\SimpleAnalyzer.class
+com\ProjectApp\NonSenseGenerator\Application.class

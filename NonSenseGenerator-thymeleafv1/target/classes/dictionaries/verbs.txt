@@ -1,0 +1,4 @@
+gatto 
+cane
+topo
+banana
