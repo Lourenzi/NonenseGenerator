@@ -1,0 +1,57 @@
+{"tokens": [
+  {
+    "partOfSpeech": {"tag": "DET"},
+    "dependencyEdge": {"headTokenIndex": 3},
+    "text": {"content": "The"}
+  },
+  {
+    "partOfSpeech": {"tag": "ADJ"},
+    "dependencyEdge": {"headTokenIndex": 3},
+    "text": {"content": "quick"}
+  },
+  {
+    "partOfSpeech": {"tag": "ADJ"},
+    "dependencyEdge": {"headTokenIndex": 3},
+    "text": {"content": "brown"}
+  },
+  {
+    "partOfSpeech": {"tag": "NOUN"},
+    "dependencyEdge": {"headTokenIndex": 4},
+    "text": {"content": "fox"}
+  },
+  {
+    "partOfSpeech": {"tag": "VERB"},
+    "dependencyEdge": {"headTokenIndex": 4},
+    "text": {"content": "jumps"}
+  },
+  {
+    "partOfSpeech": {"tag": "ADP"},
+    "dependencyEdge": {"headTokenIndex": 8},
+    "text": {"content": "over"}
+  },
+  {
+    "partOfSpeech": {"tag": "DET"},
+    "dependencyEdge": {"headTokenIndex": 8},
+    "text": {"content": "the"}
+  },
+  {
+    "partOfSpeech": {"tag": "ADJ"},
+    "dependencyEdge": {"headTokenIndex": 8},
+    "text": {"content": "lazy"}
+  },
+  {
+    "partOfSpeech": {"tag": "NOUN"},
+    "dependencyEdge": {"headTokenIndex": 4},
+    "text": {"content": "dog"}
+  },
+  {
+    "partOfSpeech": {"tag": "ADV"},
+    "dependencyEdge": {"headTokenIndex": 4},
+    "text": {"content": "again"}
+  },
+  {
+    "partOfSpeech": {"tag": "PUNCT"},
+    "dependencyEdge": {"headTokenIndex": 4},
+    "text": {"content": "."}
+  }
+]}
