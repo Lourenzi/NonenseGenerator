@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "The monkey and the giraffe dance together.",
+        "beginOffset": 0
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "text": { "content": "The", "beginOffset": 0 },
+      "partOfSpeech": {
+        "tag": "DET",
+        "number": "SINGULAR",
+        "proper": "NOT_PROPER"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 1,
+        "label": "DET"
+      },
+      "lemma": "the"
+    },
+    {
+      "text": { "content": "monkey", "beginOffset": 4 },
+      "partOfSpeech": {
+        "tag": "NOUN",
+        "number": "SINGULAR",
+        "proper": "NOT_PROPER"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 5,
+        "label": "NSUBJ"
+      },
+      "lemma": "monkey"
+    },
+    {
+      "text": { "content": "and", "beginOffset": 11 },
+      "partOfSpeech": {
+        "tag": "CCONJ"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 1,
+        "label": "CC"
+      },
+      "lemma": "and"
+    },
+    {
+      "text": { "content": "the", "beginOffset": 15 },
+      "partOfSpeech": {
+        "tag": "DET",
+        "number": "SINGULAR",
+        "proper": "NOT_PROPER"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 4,
+        "label": "DET"
+      },
+      "lemma": "the"
+    },
+    {
+      "text": { "content": "giraffe", "beginOffset": 19 },
+      "partOfSpeech": {
+        "tag": "NOUN",
+        "number": "SINGULAR",
+        "proper": "NOT_PROPER"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 1,
+        "label": "CONJ"
+      },
+      "lemma": "giraffe"
+    },
+    {
+      "text": { "content": "dance", "beginOffset": 27 },
+      "partOfSpeech": {
+        "tag": "VERB",
+        "tense": "PRESENT",
+        "person": "THIRD",
+        "number": "PLURAL",
+        "voice": "ACTIVE"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 5,
+        "label": "ROOT"
+      },
+      "lemma": "dance"
+    },
+    {
+      "text": { "content": "together", "beginOffset": 33 },
+      "partOfSpeech": {
+        "tag": "ADV"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 5,
+        "label": "ADVMOD"
+      },
+      "lemma": "together"
+    },
+    {
+      "text": { "content": ".", "beginOffset": 41 },
+      "partOfSpeech": {
+        "tag": "PUNCT"
+      },
+      "dependencyEdge": {
+        "headTokenIndex": 5,
+        "label": "P"
+      },
+      "lemma": "."
+    }
+  ],
+  "language": "en"
+}

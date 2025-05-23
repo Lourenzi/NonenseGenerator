@@ -1,0 +1,175 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "L'avventura della vita è un viaggio pieno di sorprese, dove ogni passo porta a nuove scoperte e a esperienze uniche che arricchiscono l'anima.",
+        "beginOffset": 0
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "text": { "content": "L'", "beginOffset": 0 },
+      "partOfSpeech": { "tag": "DET", "number": "SINGULAR", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 1, "label": "DET" },
+      "lemma": "il"
+    },
+    {
+      "text": { "content": "avventura", "beginOffset": 2 },
+      "partOfSpeech": { "tag": "NOUN", "number": "SINGULAR", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 4, "label": "NSUBJ" },
+      "lemma": "avventura"
+    },
+    {
+      "text": { "content": "della", "beginOffset": 11 },
+      "partOfSpeech": { "tag": "ADP" },
+      "dependencyEdge": { "headTokenIndex": 3, "label": "CASE" },
+      "lemma": "di"
+    },
+    {
+      "text": { "content": "vita", "beginOffset": 17 },
+      "partOfSpeech": { "tag": "NOUN", "number": "SINGULAR", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 1, "label": "NMOD" },
+      "lemma": "vita"
+    },
+    {
+      "text": { "content": "è", "beginOffset": 22 },
+      "partOfSpeech": { "tag": "VERB", "tense": "PRESENT", "mood": "INDICATIVE", "person": "THIRD", "number": "SINGULAR" },
+      "dependencyEdge": { "headTokenIndex": 4, "label": "ROOT" },
+      "lemma": "essere"
+    },
+    {
+      "text": { "content": "un", "beginOffset": 24 },
+      "partOfSpeech": { "tag": "DET", "number": "SINGULAR", "gender": "MASCULINE" },
+      "dependencyEdge": { "headTokenIndex": 6, "label": "DET" },
+      "lemma": "un"
+    },
+    {
+      "text": { "content": "viaggio", "beginOffset": 27 },
+      "partOfSpeech": { "tag": "NOUN", "number": "SINGULAR", "gender": "MASCULINE" },
+      "dependencyEdge": { "headTokenIndex": 4, "label": "ATTR" },
+      "lemma": "viaggio"
+    },
+    {
+      "text": { "content": "pieno", "beginOffset": 35 },
+      "partOfSpeech": { "tag": "ADJ", "number": "SINGULAR", "gender": "MASCULINE" },
+      "dependencyEdge": { "headTokenIndex": 6, "label": "AMOD" },
+      "lemma": "pieno"
+    },
+    {
+      "text": { "content": "di", "beginOffset": 41 },
+      "partOfSpeech": { "tag": "ADP" },
+      "dependencyEdge": { "headTokenIndex": 9, "label": "CASE" },
+      "lemma": "di"
+    },
+    {
+      "text": { "content": "sorprese", "beginOffset": 44 },
+      "partOfSpeech": { "tag": "NOUN", "number": "PLURAL", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 7, "label": "NMOD" },
+      "lemma": "sorpresa"
+    },
+    {
+      "text": { "content": ",", "beginOffset": 52 },
+      "partOfSpeech": { "tag": "PUNCT" },
+      "dependencyEdge": { "headTokenIndex": 4, "label": "P" },
+      "lemma": ","
+    },
+    {
+      "text": { "content": "dove", "beginOffset": 54 },
+      "partOfSpeech": { "tag": "SCONJ" },
+      "dependencyEdge": { "headTokenIndex": 13, "label": "MARK" },
+      "lemma": "dove"
+    },
+    {
+      "text": { "content": "ogni", "beginOffset": 59 },
+      "partOfSpeech": { "tag": "DET" },
+      "dependencyEdge": { "headTokenIndex": 13, "label": "DET" },
+      "lemma": "ogni"
+    },
+    {
+      "text": { "content": "passo", "beginOffset": 64 },
+      "partOfSpeech": { "tag": "NOUN", "number": "SINGULAR", "gender": "MASCULINE" },
+      "dependencyEdge": { "headTokenIndex": 14, "label": "NSUBJ" },
+      "lemma": "passo"
+    },
+    {
+      "text": { "content": "porta", "beginOffset": 70 },
+      "partOfSpeech": { "tag": "VERB", "tense": "PRESENT", "person": "THIRD", "number": "SINGULAR" },
+      "dependencyEdge": { "headTokenIndex": 4, "label": "ADVCL" },
+      "lemma": "portare"
+    },
+    {
+      "text": { "content": "a", "beginOffset": 76 },
+      "partOfSpeech": { "tag": "ADP" },
+      "dependencyEdge": { "headTokenIndex": 17, "label": "CASE" },
+      "lemma": "a"
+    },
+    {
+      "text": { "content": "nuove", "beginOffset": 78 },
+      "partOfSpeech": { "tag": "ADJ", "number": "PLURAL", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 17, "label": "AMOD" },
+      "lemma": "nuovo"
+    },
+    {
+      "text": { "content": "scoperte", "beginOffset": 85 },
+      "partOfSpeech": { "tag": "NOUN", "number": "PLURAL", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 14, "label": "DOBJ" },
+      "lemma": "scoperta"
+    },
+    {
+      "text": { "content": "e", "beginOffset": 94 },
+      "partOfSpeech": { "tag": "CCONJ" },
+      "dependencyEdge": { "headTokenIndex": 17, "label": "CC" },
+      "lemma": "e"
+    },
+    {
+      "text": { "content": "a", "beginOffset": 96 },
+      "partOfSpeech": { "tag": "ADP" },
+      "dependencyEdge": { "headTokenIndex": 20, "label": "CASE" },
+      "lemma": "a"
+    },
+    {
+      "text": { "content": "esperienze", "beginOffset": 98 },
+      "partOfSpeech": { "tag": "NOUN", "number": "PLURAL", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 17, "label": "CONJ" },
+      "lemma": "esperienza"
+    },
+    {
+      "text": { "content": "uniche", "beginOffset": 109 },
+      "partOfSpeech": { "tag": "ADJ", "number": "PLURAL", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 20, "label": "AMOD" },
+      "lemma": "unico"
+    },
+    {
+      "text": { "content": "che", "beginOffset": 116 },
+      "partOfSpeech": { "tag": "PRON" },
+      "dependencyEdge": { "headTokenIndex": 24, "label": "NSUBJ" },
+      "lemma": "che"
+    },
+    {
+      "text": { "content": "arricchiscono", "beginOffset": 120 },
+      "partOfSpeech": { "tag": "VERB", "tense": "PRESENT", "number": "PLURAL", "person": "THIRD" },
+      "dependencyEdge": { "headTokenIndex": 20, "label": "RELCL" },
+      "lemma": "arricchire"
+    },
+    {
+      "text": { "content": "l'", "beginOffset": 134 },
+      "partOfSpeech": { "tag": "DET", "number": "SINGULAR", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 25, "label": "DET" },
+      "lemma": "la"
+    },
+    {
+      "text": { "content": "anima", "beginOffset": 136 },
+      "partOfSpeech": { "tag": "NOUN", "number": "SINGULAR", "gender": "FEMININE" },
+      "dependencyEdge": { "headTokenIndex": 24, "label": "DOBJ" },
+      "lemma": "anima"
+    },
+    {
+      "text": { "content": ".", "beginOffset": 141 },
+      "partOfSpeech": { "tag": "PUNCT" },
+      "dependencyEdge": { "headTokenIndex": 4, "label": "P" },
+      "lemma": "."
+    }
+  ],
+  "language": "it"
+}
